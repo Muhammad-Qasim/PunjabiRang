@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.My_UploadsFragment"
+    android:layout_marginBottom="55dp">
+
+    <LinearLayout
+        android:id="@+id/last_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mid_bar"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="-5dp"
+        android:background="@drawable/button_black"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Uploads"
+            android:layout_marginLeft="120dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_below="@id/last_bar"
+        android:id="@+id/recycler_view"/>
+
+
+</RelativeLayout>

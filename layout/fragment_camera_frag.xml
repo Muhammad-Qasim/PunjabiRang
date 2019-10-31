@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Camera_frag"
+    android:orientation="vertical"
+
+    >
+
+    <fragment
+        android:id="@+id/ar_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/burger"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/burger" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/makai_roti"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/makaikeroti" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/saag"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/saag" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/biryani"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/biryani" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/shamikabab"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shammikabab" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/suthan"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suthan" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kurta"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kurta" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/phulkari"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phulkari" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ghagra"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ghagra" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ludi"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/luddidance" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bhangra"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bhangradance" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gidha"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gidhadance" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kikli"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kikli" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dhol"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dhol" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chimta"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chimta" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dhotara"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dhotara" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/flute"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flute" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/badshahimosque"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/badshahimosque" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iqbalsquare"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iqbalsquare" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/lahoreforte"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lahoreforte" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/hiranminar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hiranminar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/minarepakistan"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minarepakistan" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>

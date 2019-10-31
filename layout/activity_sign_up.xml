@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/sigup_new">
+
+    <EditText
+        android:id="@+id/username_et"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/profile"
+        android:drawablePadding="5dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="169dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/confirmpassword_et"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="229dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/phone_no_et"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/telephone"
+        android:drawablePadding="5dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingLeft="10dp" />
+
+    <Spinner
+        android:id="@+id/country_spin"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="219dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/globe"
+        android:drawablePadding="5dp"
+        android:inputType="textAutoComplete"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp" />
+
+    <Button
+        android:id="@+id/signup_btn_su"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/round_cornor_btn"
+        android:text="Sign Up"
+        android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account"
+            android:textColor="@color/light_grey"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="55dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="65dp"
+
+           />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="39dp"
+            android:background="@android:color/transparent"
+            android:text="login"
+            android:textColor="@color/light_grey"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>

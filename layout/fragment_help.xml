@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Help_Fragment"
+    android:layout_marginBottom="58dp"
+    android:background="@drawable/privacybackground"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="55dp">
+<!--
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="">
+-->
+
+      <TextView
+          android:id="@+id/t1"
+          android:layout_width="330dp"
+          android:layout_height="40dp"
+          android:drawableRight="@drawable/arrow_dorp_up"
+          android:paddingRight="20dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="20dp"
+          android:paddingLeft="5dp"
+          android:textSize="20dp"
+          android:text="What is “Punjabi Rang”?"
+          android:background="@drawable/solid_border"
+          />
+
+      <TextView
+          android:id="@+id/a1"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="10dp"
+          android:layout_below="@+id/t1"
+          android:paddingRight="20dp"
+          android:paddingLeft="5dp"
+          android:layout_marginTop="10dp"
+          android:elevation="15dp"
+          android:textSize="20dp"
+          android:text="Punjabi Rang is an android application to promote the Punjabi culture and to aware the people about Punjabi culture of Pakistan."
+          android:background="@drawable/shadow"
+          android:visibility="gone"
+          />
+
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="How to upload image?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text="Image can upload in visitor gallery by clicking the upload button and selecting the photo through phone gallery or take new picture. After selecting the image select the category of image and fill the description box with suitable detail of picture and click on save button."
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="How to download image?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text="Go to visitor gallery, select the desired picture to download and click on the option button and by pressing the download button you can download the image in your phone gallery."
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp    "
+        android:textSize="20dp"
+        android:text="How to save image in app?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text="Go to visitor gallery and select the picture to save and click the option button then save button and picture will be saved in application"
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="How to edit image?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text="Go to my uploads or visitor gallery , select the upload picture that you want to edit and click on option button then edit  and make the changes in description and category and click on save."
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="How to report user?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text="By uploading the irrelevant picture, user can report the other user by click the report button on the bottom of picture"
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="What is silver, golden and diamond post?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a7"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text="It is the name of ranks that show the top rated picture of visitor gallery"
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/arrow_dorp_up"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="how to use AI Camera?"
+        android:background="@drawable/solid_border"
+        />
+
+    <TextView
+        android:id="@+id/a8"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/t1"
+        android:paddingRight="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:textSize="20dp"
+        android:text=" Go to camera them detect the plane, select the desired 3D model and capture the image."
+        android:background="@drawable/shadow"
+        android:visibility="gone"
+        />
+
+
+    </LinearLayout>
+
+</ScrollView>
+      <!--
+           <RelativeLayout
+              android:id="@+id/R1"
+              android:layout_width="330dp"
+              android:layout_height="40dp"
+              android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+              android:background="@drawable/spinner_vg">
+
+           <Spinner
+            android:id="@+id/Q1"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            >
+
+        </Spinner>
+
+     </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R2"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_vg"
+            android:layout_below="@id/R1">
+
+        <Spinner
+            android:id="@+id/Q2"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R3"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R2"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q3"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R4"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R3"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q4"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R5"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R4"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q5"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/R6"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R5"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q6"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R7"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R6"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q7"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R8"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R7"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q8"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R9"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R8"
+            android:background="@drawable/spinner_vg">
+
+
+        <Spinner
+            android:id="@+id/Q9"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R10"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R9"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q10"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R11"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/R10"
+            android:background="@drawable/spinner_vg">
+
+        <Spinner
+            android:id="@+id/Q11"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp">
+
+        </Spinner>
+        </RelativeLayout>
+     -->
+
+
+
+
+
+<!--
+</ScrollView>-->

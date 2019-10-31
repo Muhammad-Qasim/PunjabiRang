@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/drawer_header"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:background="@drawable/sigup_new"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="bottom"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/userImage_nv_h"/>
+
+    <TextView
+        android:id="@+id/name_nh_tv_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="User"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/email_nh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+</LinearLayout>

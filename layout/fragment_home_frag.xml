@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:context=".Fragments.Home_frag"
+       android:orientation="vertical"
+       android:background="@drawable/privacybackground"
+       >
+      <RelativeLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="330dp"
+          android:layout_height="170dp"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/slider_style">
+
+      <ViewFlipper
+          android:id="@+id/flipper"
+          android:layout_marginTop="2.5dp"
+          android:layout_width="326dp"
+          android:layout_height="165dp"
+          android:layout_centerHorizontal="true">
+
+      </ViewFlipper>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="550dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="0dp"
+          android:layout_marginTop="50dp">
+
+
+         <RelativeLayout
+             android:id="@+id/layfood"
+             android:layout_width="158dp"
+             android:layout_height="109dp"
+             android:layout_alignParentStart="true"
+             android:layout_marginStart="14dp"
+             android:layout_marginTop="140dp"
+             android:background="@drawable/shadow"
+             android:clickable="true"
+             android:elevation="16dp"
+             android:focusable="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_food"
+                android:layout_width="147dp"
+                android:layout_height="81dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/foodpak" />
+
+            <TextView
+                android:id="@+id/txtfood"
+                android:layout_width="134dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="6dp"
+                android:text="Explore Food"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/left"
+             android:layout_width="160dp"
+             android:layout_height="113dp"
+             android:layout_below="@+id/laysports"
+             android:layout_alignParentEnd="true"
+             android:layout_marginTop="26dp"
+             android:layout_marginEnd="14dp"
+             android:layout_marginRight="20dp"
+             android:background="@drawable/shadow"
+             android:clickable="true"
+             android:elevation="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_cloth"
+                android:layout_width="147dp"
+                android:layout_height="81dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/cloth" />
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginBottom="5dp"
+                android:text="Explore Clothes"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+         </RelativeLayout>
+
+
+         <RelativeLayout
+
+             android:id="@+id/laydance"
+             android:layout_width="160dp"
+             android:layout_height="113dp"
+             android:layout_below="@+id/laysports"
+             android:layout_alignParentStart="true"
+             android:layout_marginStart="14dp"
+             android:layout_marginTop="26dp"
+             android:background="@drawable/shadow"
+             android:clickable="true"
+             android:elevation="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_dance"
+                android:layout_width="147dp"
+                android:layout_height="81dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/ldance" />
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:text="Explore Dances"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/laysports"
+             android:layout_width="160dp"
+             android:layout_height="113dp"
+             android:layout_alignParentEnd="true"
+             android:layout_marginTop="140dp"
+             android:layout_marginEnd="14dp"
+             android:layout_marginRight="20dp"
+             android:background="@drawable/shadow"
+             android:elevation="16dp"
+             android:paddingLeft="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_sport"
+                android:layout_width="147dp"
+                android:layout_height="81dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/sportspak" />
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:text="Explore Sports"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+         </RelativeLayout>
+
+
+         <RelativeLayout
+             android:id="@+id/layplaces"
+             android:layout_width="160dp"
+             android:layout_height="113dp"
+             android:layout_below="@+id/left"
+             android:layout_alignParentEnd="true"
+             android:layout_marginTop="26dp"
+             android:layout_marginEnd="14dp"
+             android:layout_marginRight="20dp"
+             android:background="@drawable/shadow"
+             android:clickable="true"
+             android:elevation="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_place"
+                android:layout_width="147dp"
+                android:layout_height="81dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/places" />
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="6dp"
+                android:text="Explore Places"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+         </RelativeLayout>
+
+         <RelativeLayout
+
+             android:id="@+id/laymusic"
+             android:layout_width="160dp"
+             android:layout_height="113dp"
+             android:layout_below="@+id/laydance"
+             android:layout_marginLeft="14dp"
+             android:layout_marginTop="26dp"
+             android:layout_marginBottom="4dp"
+             android:background="@drawable/shadow"
+             android:clickable="true"
+             android:elevation="16dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_musical"
+                android:layout_width="134dp"
+                android:layout_height="81dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/musical" />
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="18dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="6dp"
+                android:text="Explore Instruments"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+         </RelativeLayout>
+
+
+      </RelativeLayout>
+
+
+
+
+
+   </RelativeLayout>
+</ScrollView>

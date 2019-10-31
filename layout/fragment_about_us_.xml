@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="343dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aboutus_style"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginRight="8dp"
+    android:paddingLeft="3dp"
+    android:paddingEnd="3dp"
+    android:elevation="10dp"
+    android:layout_marginBottom="55dp"
+    tools:context=".Fragments.AboutUs_Fragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+         <TextView
+             android:layout_marginTop="40dp"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="PUNJABI RANG"
+             android:fontFamily="@font/lobster_regular"
+             android:layout_centerHorizontal="true"
+             android:textSize="40dp"
+             android:textStyle="bold"
+             android:textColor="@color/black"
+
+             />
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/aboutus_div"
+                android:elevation="20dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="PUNJABI RANG is a step toward the understanding and promotion of Punjabi culture
+and to aware, the people about the Punjabi culture of Pakistan. This app would save a lot of time and money of the people,
+as they would have no need to travel to particular part of Punjab to understand their cultures."
+
+                android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/emptySpace1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                    "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/introduction"/>
+
+        <TextView
+            android:id="@+id/developedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Developed By"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@+id/emptySpace1"/>
+
+        <TextView
+            android:id="@+id/emptySpace2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                    "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/developedBy"/>
+
+
+            <RelativeLayout
+                android:id="@+id/developer1"
+                android:layout_width="161dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="6dp"
+                android:layout_below="@+id/emptySpace2"
+                android:layout_marginTop="3dp"
+                android:elevation="6dp"
+                android:background="@drawable/about_qasim">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/qasimimage"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/qasim_image_aus"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="17dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Muhammad Qasim"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@id/qasim_image_aus"/>
+
+            </RelativeLayout>
+
+           <RelativeLayout
+               android:id="@+id/developer2"
+               android:layout_width="161dp"
+               android:layout_height="150dp"
+               android:layout_toRightOf="@+id/developer1"
+               android:layout_below="@id/emptySpace2"
+               android:elevation="6dp"
+               android:background="@drawable/about_umer"
+               android:layout_marginRight="6dp"
+               android:layout_marginLeft="3dp"
+               android:layout_marginTop="3dp">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:src="@drawable/umerimage"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:id="@+id/umer_image_aus"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginTop="17dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Muhammad Umer"
+                   android:textSize="17dp"
+                   android:textStyle="bold"
+                   android:layout_below="@id/umer_image_aus"
+                   android:layout_marginTop="4dp"
+                   android:layout_centerHorizontal="true"
+            />
+
+           </RelativeLayout>
+
+
+
+           <RelativeLayout
+               android:id="@+id/developer3"
+               android:layout_width="161dp"
+               android:layout_height="150dp"
+               android:layout_marginTop="3dp"
+               android:layout_marginLeft="6dp"
+               android:elevation="6dp"
+               android:layout_below="@+id/developer1"
+               android:background="@drawable/about_hamed">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:src="@drawable/hamedimage"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:id="@+id/hamed_image_aus"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginTop="17dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamed Ali"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_below="@id/hamed_image_aus"
+            android:layout_marginTop="4dp"
+            android:layout_centerHorizontal="true"
+            />
+
+           </RelativeLayout>
+
+
+
+           <RelativeLayout
+               android:id="@+id/developer4"
+               android:layout_width="161dp"
+               android:layout_height="150dp"
+               android:layout_marginLeft="3dp"
+               android:layout_marginTop="3dp"
+               android:elevation="6dp"
+               android:layout_marginRight="6dp"
+               android:layout_below="@+id/developer2"
+               android:layout_toRightOf="@id/developer3"
+               android:background="@drawable/about_ahsin">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:src="@drawable/ahsinimage"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:id="@+id/ahsin_image_aus"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginTop="17dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahsin Tariq"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/ahsin_image_aus"
+            android:layout_marginTop="4dp"
+            android:layout_centerHorizontal="true"
+            />
+
+           </RelativeLayout>
+
+
+
+        </RelativeLayout>
+</ScrollView>

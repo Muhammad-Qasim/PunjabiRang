@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Fragments.Visitors_GalaryFragment"
+    android:layout_marginBottom="55dp"
+ >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/spinner_layout"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/spinner_vg"
+                    >
+                <Spinner
+                    android:id="@+id/search_spinner"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:spinnerMode="dropdown"
+                    >
+                </Spinner>
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/search_et"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/solid_border"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="17dp"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_toRightOf="@+id/spinner_layout"
+                    android:hint="Search by Description"
+                    android:textSize="16dp"/>
+
+
+                <!--<TextView
+                    android:id="@+id/logo"
+                    android:layout_width="280dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="PUNJABI RANG" />
+-->
+
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp">
+
+        <ProgressBar
+            android:id="@+id/progressCircle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+    </RelativeLayout>
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_view"
+                android:layout_below="@+id/bar"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <ImageView
+        android:id="@+id/upload_Image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="520dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/app_plus_new"
+        android:elevation="50dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin"
+    android:background="@drawable/sigin_new">
+
+    <TextView
+        android:id="@+id/punjabi_rang_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="0dp"
+        android:text="Punjabi Rang"
+        android:textColor="@color/light_grey"
+        android:textSize="45dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="163dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/light_grey" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/round_rectangle"
+        android:drawableLeft="@drawable/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/light_grey" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/round_cornor_btn"
+        android:text="Login"
+        android:textColor="@color/light_grey"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/forget_password_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="154dp"
+        android:background="@android:color/transparent"
+        android:text="Forget Password?"
+        android:textColor="@color/light_grey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/guest_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/signup_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="56dp"
+        android:background="@android:color/transparent"
+        android:text="Guest"
+        android:textColor="@color/light_grey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/transparent"
+        android:text="Signup"
+        android:textColor="@color/light_grey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
